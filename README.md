@@ -122,10 +122,42 @@ Develop a system that enables organizations to track and identify the source of 
 - Efficiency and scalability: The system should handle a large number of agents and data allocations efficiently.
 - User-friendliness: The system should be easy to use and understand, with appropriate input prompts and error handling.
 
+## Sample Input and Output
+
+To demonstrate the functionality of the application, we'll provide a sample input and the expected output for the data leakage detection process.
+
+### Sample Input:
+
+```plaintext
+Enter Agent ID: 001
+Enter Agent Name: Pathan
+Enter Allocated Data: Credit Card Number
+Enter Alteration: Encrypted
+Enter Simulated Leaked Data: Credit Card Number
+Enter Simulated Alteration: Encrypted
+```
+
+### Expected Output:
+```plaintext
+Data leaked from Agent: 001
+```
+
+Explanation of the expected output:
+
+- An agent with ID "001" and name "Pathan" is created and allocated the data "Credit Card Number" with the alteration "Encrypted."
+- In the simulation, "Credit Card Number" with alteration "Encrypted" is considered as leaked data.
+- The 'LeakageDetector' is used to check if the leaked data matches the allocated data for any agent. In this case, it matches with agent ID "001", so the program outputs that the data leaked from this agent.
+
+
+Please note that the actual input and output may vary based on the specific input values provided during runtime.
+
+
+
 ---
 
 This README provides an overview of the "DataLeak Trace" project, detailing its features, prerequisites, setup, usage, logic, and the problem statement it aims to address.
 
 --- 
 
-`<https://github.com/CheetahCodes21/Java-Data-Leakage-Detection>` 
+`https://github.com/CheetahCodes21/Java-Data-Leakage-Detection` 
+[Cheetah 🐾](https://github.com/CheetahCodes21)
