@@ -152,12 +152,10 @@ Explanation of the expected output:
 Please note that the actual input and output may vary based on the specific input values provided during runtime.
 
 
-
 ---
 
 This README provides an overview of the "DataLeak Trace" project, detailing its features, prerequisites, setup, usage, logic, and the problem statement it aims to address.
 
 --- 
-
 `https://github.com/CheetahCodes21/Java-Data-Leakage-Detection` 
 [Cheetah 🐾](https://github.com/CheetahCodes21)
